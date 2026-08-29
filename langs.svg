@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="420" height="340" role="img">
+<title>Top languages</title>
+
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#170e28"/><stop offset="1" stop-color="#221240"/>
+</linearGradient>
+<style><![CDATA[
+.bar{transform:scaleX(0);animation:grow 1.3s cubic-bezier(.25,.9,.3,1) both;}
+@keyframes grow{to{transform:scaleX(1)}}
+.pct{opacity:0;animation:fin .5s ease-out both;}
+@keyframes fin{to{opacity:1}}
+]]></style>
+</defs>
+<rect width="420" height="340" rx="20" fill="url(#bg)" stroke="rgba(255,255,255,0.09)"/>
+<text x="210" y="42" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#a294c4">TOP LANGUAGES</text>
+<text x="40" y="87" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cfc4e8">Python</text>
+<rect x="150" y="75" width="200" height="14" rx="7" fill="rgba(255,255,255,0.07)"/>
+<g transform="translate(150,75)"><rect class="bar" style="animation-delay:0.25s" width="200" height="14" rx="7" fill="#5b9fd4"/></g>
+<text class="pct" style="animation-delay:0.95s" x="392" y="87" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#5b9fd4">34%</text>
+<text x="40" y="133" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cfc4e8">JavaScript</text>
+<rect x="150" y="121" width="200" height="14" rx="7" fill="rgba(255,255,255,0.07)"/>
+<g transform="translate(150,121)"><rect class="bar" style="animation-delay:0.39s" width="129" height="14" rx="7" fill="#f5d90a"/></g>
+<text class="pct" style="animation-delay:1.09s" x="392" y="133" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#f5d90a">22%</text>
+<text x="40" y="179" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cfc4e8">Java</text>
+<rect x="150" y="167" width="200" height="14" rx="7" fill="rgba(255,255,255,0.07)"/>
+<g transform="translate(150,167)"><rect class="bar" style="animation-delay:0.53s" width="94" height="14" rx="7" fill="#e8a33d"/></g>
+<text class="pct" style="animation-delay:1.23s" x="392" y="179" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#e8a33d">16%</text>
+<text x="40" y="225" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cfc4e8">R</text>
+<rect x="150" y="213" width="200" height="14" rx="7" fill="rgba(255,255,255,0.07)"/>
+<g transform="translate(150,213)"><rect class="bar" style="animation-delay:0.67s" width="82" height="14" rx="7" fill="#3f8fd6"/></g>
+<text class="pct" style="animation-delay:1.37s" x="392" y="225" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#3f8fd6">14%</text>
+<text x="40" y="271" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#cfc4e8">C++</text>
+<rect x="150" y="259" width="200" height="14" rx="7" fill="rgba(255,255,255,0.07)"/>
+<g transform="translate(150,259)"><rect class="bar" style="animation-delay:0.81s" width="82" height="14" rx="7" fill="#4a7fc1"/></g>
+<text class="pct" style="animation-delay:1.51s" x="392" y="271" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#4a7fc1">14%</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" width="420" height="380" role="img">
+<title>Trophies</title>
+
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#170e28"/><stop offset="1" stop-color="#221240"/>
+</linearGradient>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ff6ec7"/><stop offset="1" stop-color="#7b5cff"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="tclip"><rect width="420" height="380" rx="20"/></clipPath>
+<style><![CDATA[
+.tp{transform-box:fill-box;transform-origin:center;transform:scale(.3);opacity:0;animation:tpop .65s cubic-bezier(.34,1.56,.64,1) both;}
+@keyframes tpop{0%{transform:scale(.3);opacity:0}70%{transform:scale(1.07);opacity:1}100%{transform:scale(1);opacity:1}}
+.shine{animation:sh 5s 1.6s linear infinite;}
+@keyframes sh{0%{transform:translateX(-220px)}40%{transform:translateX(660px)}100%{transform:translateX(660px)}}
+]]></style>
+</defs>
+<rect width="420" height="380" rx="20" fill="url(#bg)" stroke="rgba(255,255,255,0.09)"/>
+<text x="210" y="42" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#a294c4">TROPHIES</text>
+<g class="tp" style="animation-delay:0.30s"><rect x="35" y="65" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="172" cy="95" r="16" fill="url(#tg)"/><text x="172" y="100" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">S</text><text x="55" y="117" font-size="27">🚀</text><text x="55" y="153" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">ISRO Antariksh</text><text x="55" y="175" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">Hackathon 2026</text></g>
+<g class="tp" style="animation-delay:0.46s"><rect x="220" y="65" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="357" cy="95" r="16" fill="url(#tg)"/><text x="357" y="100" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">A</text><text x="240" y="117" font-size="27">📊</text><text x="240" y="153" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">Data &amp; AI</text><text x="240" y="175" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">Challenge</text></g>
+<g class="tp" style="animation-delay:0.62s"><rect x="35" y="215" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="172" cy="245" r="16" fill="url(#tg)"/><text x="172" y="250" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">A</text><text x="55" y="267" font-size="27">🎤</text><text x="55" y="303" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">AIbPT Speaker</text><text x="55" y="325" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">150+ students</text></g>
+<g class="tp" style="animation-delay:0.78s"><rect x="220" y="215" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="357" cy="245" r="16" fill="url(#tg)"/><text x="357" y="250" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">B</text><text x="240" y="267" font-size="27">🎓</text><text x="240" y="303" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">3rd Year</text><text x="240" y="325" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">AI/ML · VIT-AP</text></g>
+<g clip-path="url(#tclip)"><g class="shine"><rect x="0" y="-20" width="130" height="420" fill="url(#shine)" transform="skewX(-18)"/></g></g>
+</svg>

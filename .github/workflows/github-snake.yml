@@ -1,0 +1,29 @@
+name: GitHub Snake
+
+on:
+  schedule:
+    # runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake (pink theme)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: sravanyadav-19
+          outputs: |
+            output/github-snake-pink.svg?color_snake=#ff5fa8&color_dots=#1b1030,#2a1a45,#4a2a75,#8b4fc0,#ff5fa8
+
+      - name: Publish snake to 'output' branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output
+          folder: output
+          clean: true
+          clean-exclude: ""
