@@ -25,10 +25,10 @@
 
 | 🛠 Project | 💻 Tech |
 |:---|:---:|
-| [🌐 Open Benefits](https://sravanyadav-19.github.io/portfolio) | `Python` `ML` |
-| [🎯 Redrob Candidate Ranking](https://sravanyadav-19.github.io/portfolio) | `Embeddings` `Python` |
-| [📚 TutorSpace](https://sravanyadav-19.github.io/portfolio) | `React` `Node.js` |
-| [🌿 InovitaZ](https://sravanyadav-19.github.io/portfolio) | `React` `JavaScript` |
+| [🌐 OpenBenefits](https://github.com/sravanyadav-19/OpenBenifits) | `Python` `ML` |
+| [🎯 Redrob Candidate Ranking](https://github.com/sravanyadav-19/redrob-intelligent-candidate-ranking) | `Python` `Embeddings` |
+| [📚 TutorSpace LMS](https://github.com/sravanyadav-19/tutorspace-lms) | `React` `Node.js` |
+| [🛒 InovitaZ](https://github.com/sravanyadav-19/inovitaz-app) | `React` `JavaScript` |
 
 <br/>
 

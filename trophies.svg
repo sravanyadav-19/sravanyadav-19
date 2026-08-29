@@ -1,29 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" width="420" height="380" role="img">
-<title>Trophies</title>
-
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0" stop-color="#170e28"/><stop offset="1" stop-color="#221240"/>
-</linearGradient>
-<linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0" stop-color="#ff6ec7"/><stop offset="1" stop-color="#7b5cff"/>
-</linearGradient>
-<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
-</linearGradient>
-<clipPath id="tclip"><rect width="420" height="380" rx="20"/></clipPath>
-<style><![CDATA[
-.tp{transform-box:fill-box;transform-origin:center;transform:scale(.3);opacity:0;animation:tpop .65s cubic-bezier(.34,1.56,.64,1) both;}
-@keyframes tpop{0%{transform:scale(.3);opacity:0}70%{transform:scale(1.07);opacity:1}100%{transform:scale(1);opacity:1}}
-.shine{animation:sh 5s 1.6s linear infinite;}
-@keyframes sh{0%{transform:translateX(-220px)}40%{transform:translateX(660px)}100%{transform:translateX(660px)}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1092 168" width="1092" height="168" role="img" aria-label="GitHub trophies">
+<defs><style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes popCell{0%{opacity:0;transform:translateY(16px) scale(.85)}70%{opacity:1;transform:translateY(-3px) scale(1.03)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes rankGlow{0%,100%{opacity:.75}50%{opacity:1}}
+@keyframes shineX2{0%{transform:translateX(-200px) skewX(-15deg)}60%,100%{transform:translateX(1172px) skewX(-15deg)}}
+.cell{opacity:0;animation:popCell .55s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.rk{animation:rankGlow 2.2s ease-in-out infinite}
+.sh2{animation:shineX2 5s ease-in-out 2s infinite}
 ]]></style>
+<linearGradient id="shg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".07"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="tc"><rect x="0" y="0" width="1092" height="168" rx="14"/></clipPath>
 </defs>
-<rect width="420" height="380" rx="20" fill="url(#bg)" stroke="rgba(255,255,255,0.09)"/>
-<text x="210" y="42" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#a294c4">TROPHIES</text>
-<g class="tp" style="animation-delay:0.30s"><rect x="35" y="65" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="172" cy="95" r="16" fill="url(#tg)"/><text x="172" y="100" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">S</text><text x="55" y="117" font-size="27">🚀</text><text x="55" y="153" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">ISRO Antariksh</text><text x="55" y="175" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">Hackathon 2026</text></g>
-<g class="tp" style="animation-delay:0.46s"><rect x="220" y="65" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="357" cy="95" r="16" fill="url(#tg)"/><text x="357" y="100" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">A</text><text x="240" y="117" font-size="27">📊</text><text x="240" y="153" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">Data &amp; AI</text><text x="240" y="175" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">Challenge</text></g>
-<g class="tp" style="animation-delay:0.62s"><rect x="35" y="215" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="172" cy="245" r="16" fill="url(#tg)"/><text x="172" y="250" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">A</text><text x="55" y="267" font-size="27">🎤</text><text x="55" y="303" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">AIbPT Speaker</text><text x="55" y="325" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">150+ students</text></g>
-<g class="tp" style="animation-delay:0.78s"><rect x="220" y="215" width="165" height="136" rx="14" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/><circle cx="357" cy="245" r="16" fill="url(#tg)"/><text x="357" y="250" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">B</text><text x="240" y="267" font-size="27">🎓</text><text x="240" y="303" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700" fill="#efe9fb">3rd Year</text><text x="240" y="325" font-family="'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#a294c4">AI/ML · VIT-AP</text></g>
-<g clip-path="url(#tclip)"><g class="shine"><rect x="0" y="-20" width="130" height="420" fill="url(#shine)" transform="skewX(-18)"/></g></g>
+
+  <g class="cell" style="animation-delay:0.30s">
+    <rect x="12" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#ff5fa8" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="96.0" y="52" text-anchor="middle" font-size="30">🤖</text>
+    <text class="rk" x="164" y="40" text-anchor="end" font-size="24" font-weight="bold" fill="#ff5fa8" style="animation-delay:0.70s">SSS</text>
+    <text x="96.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Model Maker</text>
+    <text x="96.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">AI Projects x4</text>
+    <rect x="30" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="30" y="124" width="0" height="5" rx="2.5" fill="#ff5fa8">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.60s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="cell" style="animation-delay:0.48s">
+    <rect x="192" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#fde047" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="276.0" y="52" text-anchor="middle" font-size="30">🌟</text>
+    <text class="rk" x="344" y="40" text-anchor="end" font-size="30" font-weight="bold" fill="#fde047" style="animation-delay:0.88s">S</text>
+    <text x="276.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Starstruck</text>
+    <text x="276.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">GitHub Badge</text>
+    <rect x="210" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="210" y="124" width="0" height="5" rx="2.5" fill="#fde047">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.78s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="cell" style="animation-delay:0.66s">
+    <rect x="372" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#ff6ec7" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="456.0" y="52" text-anchor="middle" font-size="30">⭐</text>
+    <text class="rk" x="524" y="40" text-anchor="end" font-size="30" font-weight="bold" fill="#ff6ec7" style="animation-delay:1.06s">A</text>
+    <text x="456.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Stargazer</text>
+    <text x="456.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">Stars 1+</text>
+    <rect x="390" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="390" y="124" width="0" height="5" rx="2.5" fill="#ff6ec7">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.96s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="cell" style="animation-delay:0.84s">
+    <rect x="552" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#c77dff" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="636.0" y="52" text-anchor="middle" font-size="30">💜</text>
+    <text class="rk" x="704" y="40" text-anchor="end" font-size="30" font-weight="bold" fill="#c77dff" style="animation-delay:1.24s">A</text>
+    <text x="636.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Rising Star</text>
+    <text x="636.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">Followers 1+</text>
+    <rect x="570" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="570" y="124" width="0" height="5" rx="2.5" fill="#c77dff">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.14s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="cell" style="animation-delay:1.02s">
+    <rect x="732" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#5fe3c0" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="816.0" y="52" text-anchor="middle" font-size="30">💻</text>
+    <text class="rk" x="884" y="40" text-anchor="end" font-size="30" font-weight="bold" fill="#5fe3c0" style="animation-delay:1.42s">A</text>
+    <text x="816.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Committer</text>
+    <text x="816.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">Commits 19+</text>
+    <rect x="750" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="750" y="124" width="0" height="5" rx="2.5" fill="#5fe3c0">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.32s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="cell" style="animation-delay:1.20s">
+    <rect x="912" y="12" width="168" height="144" rx="14" fill="#1b1030" stroke="#4ade80" stroke-opacity=".55" stroke-width="1.3"/>
+    <text x="996.0" y="52" text-anchor="middle" font-size="30">📦</text>
+    <text class="rk" x="1064" y="40" text-anchor="end" font-size="30" font-weight="bold" fill="#4ade80" style="animation-delay:1.60s">B</text>
+    <text x="996.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#efe9fb">Creator</text>
+    <text x="996.0" y="112" text-anchor="middle" font-size="11" fill="#a294c4">Repos 16+</text>
+    <rect x="930" y="124" width="132" height="5" rx="2.5" fill="#251343"/>
+    <rect x="930" y="124" width="0" height="5" rx="2.5" fill="#4ade80">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.50s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+<g clip-path="url(#tc)"><rect class="sh2" x="0" y="0" width="140" height="168" fill="url(#shg2)"/></g>
 </svg>
